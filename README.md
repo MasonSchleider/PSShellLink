@@ -1,5 +1,7 @@
 # PowerShell.ShellLink
 
+> **Note:** This module is a work in progress!
+
 PSShellLink is a PowerShell module for viewing and modifying Windows shell link metadata.
 
 At the moment, its primary function is to assist in the management of Windows console application settings.
@@ -10,11 +12,11 @@ When a console application (e.g., cmd.exe, PowerShell) is launched, its settings
 
 1. Hardcoded settings in `conhostv2.dll`.
 2. Default settings stored in the registry key `HKEY_CURRENT_USER\Console`.
-3. Per-application settings stored in subkeys of the above registry key.
+3. Per-application settings stored in subkeys of the above registry key.  
    The subkey is assigned one of the following two names:
    <ol type="a">
-     <li>The path of the console application (substituting '\' for '_').</li>
-     <li>The title of the console window.</li>
+      <li>The path of the console application (substituting <code>\</code> for <code>_</code>).</li>
+      <li>The title of the console window.</li>
    </ol>
 4. If the console application was launched from a shortcut, settings stored in the metadata of the shortcut file.
 
