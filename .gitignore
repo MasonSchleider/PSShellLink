@@ -1,5 +1,5 @@
 # Output library directory
-/ShellLink/lib/
+/src/lib/
 
 ## Ignore Visual Studio settings files and build results
 

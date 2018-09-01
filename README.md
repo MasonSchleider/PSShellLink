@@ -1,4 +1,4 @@
-# PowerShell.ShellLink
+# PSShellLink
 
 > **Note:** This module is a work in progress!
 

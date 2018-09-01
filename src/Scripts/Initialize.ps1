@@ -1,6 +1,6 @@
 Push-Location $PSScriptRoot\..
 
-$SourceFiles = Get-ChildItem .\src\ShellLink, .\src\ShellLink\Internal *.cs | Resolve-Path -Relative
+$SourceFiles = Get-ChildItem .\ShellLink\ShellLink, .\ShellLink\ShellLink\Internal *.cs | Resolve-Path -Relative
 $OutputPath = '.\lib\ShellLink.dll'
 
 if (Test-Path $OutputPath) {
